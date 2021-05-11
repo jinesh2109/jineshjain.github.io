@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #726bb1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(228, 215, 215);
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>PORTFOLIO</h1>
+<hr>
+
+<h2>Jinesh Jain</h2>
+<p>Highly motivated with a goal-driven work ethic. Passionate about educating others and leveraging the society in the field of innovation and technology</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="C:\Users\jines\Desktop\projects\images/education.png"  style="width:100%">
+      <h3>Parul University,Vadodra - B.Tech (CSE) </h3>
+      <p>2017-2021</p> 
+      <p>CGPA - 6.82</p>
+      </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\jines\Desktop\projects\images/skills.jpg" alt="Skills" style="width:100%">
+      <h3>SKILLS</h3>
+      <p>Python</p>
+      <p>HTML</p>
+      <p>CSS</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\jines\Desktop\projects\images/achievenments.png" alt="Awards" style="width:100%">
+      <h3>Awards</h3>
+      <p>Parul Projection - Code Gem </p>
+      <p>Parul Projection - Code-a-thon </p>
+      <p>Network Security - IBM </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\jines\Desktop\projects\images/contact info.jpg" alt="Contact Info" style="width:100%">
+      <h3>Contact Info</h3>
+      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="C:\Users\jines\Desktop/projects.jfif" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
